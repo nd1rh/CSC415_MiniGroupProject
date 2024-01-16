@@ -44,13 +44,13 @@ int main()
 		{
 			currentCharges=currentUnit*0.218;
 			billAmount=currentCharges+outstandingBalance;
-    	}
+    		}
     
 		else if (currentUnit >= 101 && currentUnit <= 200)  //for 101 - 200kWh
 		{
 			currentCharges=(100*0.218)+(currentUnit-100)*0.334;
 			billAmount=currentCharges+outstandingBalance;
-    	}
+    		}
 	    
 		else if (currentUnit >= 201 && currentUnit <= 300)  //for 201 - 300kWh
 		{
@@ -62,17 +62,17 @@ int main()
 		{
 			currentCharges=(100*0.218)+(100*0.334)+(100*0.516)+(currentUnit-300)*0.546;
 			billAmount=currentCharges+outstandingBalance;
-    	}
+    		}
 	    
 		else  //wrong input for current unit
 		{
-			cout << "--------------------------------------------------------------------" << endl;
+		cout << "--------------------------------------------------------------------" << endl;
 	    	cout << "Error. The current unit can not be calculated. Try again.\n";
 	    	cout << "--------------------------------------------------------------------" << endl;
-    	}
+    		}
     
     	//receipt - display back all the input for 1 user
-    	cout << "-------------------------------------------------------" << endl;
+    		cout << "-------------------------------------------------------" << endl;
 		cout << "                 ELECTRICITY BILL SYSTEM               " << endl;
 		cout << "-------------------------------------------------------" << endl;
 		cout << "  NAME                 | " << username                   << endl;
