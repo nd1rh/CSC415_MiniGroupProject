@@ -71,7 +71,7 @@ int main()
 	    	cout << "--------------------------------------------------------------------" << endl;
     		}
     
-    	//receipt - display back all the input for 1 user
+    		//receipt - display back all the input for 1 user
     		cout << "-------------------------------------------------------" << endl;
 		cout << "                 ELECTRICITY BILL SYSTEM               " << endl;
 		cout << "-------------------------------------------------------" << endl;
